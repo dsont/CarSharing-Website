@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <title>UPB Car Sharing System</title>
+	<img src="speed.png" style="width:1900px;height:950px;">
+	<link href="aboutstyles.css"rel="stylesheet">
+</head>
+<body>
+	<h2>Tell Us About Your Car</h2>
+        <form action="" method="post" onSubmit="alert('Your Info Has Been Saved!');">
+           <div>
+                <label id="make" style="width: 500px">Make</label>
+                <input id="makebox"type="text" name="make" pattern=".{4,}"required>
+            </div> 
+           <div>
+                <label id="model">Model</label>
+                <input id="modelbox"type="text" name="model" pattern=".{4,}"required>
+            </div> 
+           <div>
+                <label id="year">Year</label>
+                <input id="yearbox" type="text" name="carYear" pattern=".{4,}"required>
+            </div> 
+           <div>
+                <label id="plate">Plate #</label>
+                <input id="platebox" type="text" name="license" value="" pattern=".{7,}"required>
+            </div> 
+           <div>
+                <label id="rate">Rate Per Hour (US$)</label>
+                <input name="rate" id="ratebox" value="1" type="number" min="$1" max="$100" step="1"/>
+            </div> 
+            <input id="submit" type="submit" name="carInfoSubmit" value="Submit">
+             </form>
+			<form action="welcome.html">
+			<input id="exit" type="submit" name="exit" value="Exit" >
+        </form>
+		<p><a id="home" href="welcome.html" style=" font-size:25px;text-decoration:none;">Home</a></p>
+</body>
+</html>

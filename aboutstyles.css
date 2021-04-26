@@ -1,0 +1,159 @@
+body{
+	overflow:hidden;
+	
+}
+#home{
+	position:absolute;
+	top:4%;
+	right:7%;
+	color:white;
+	font-family:impact;
+	letter-spacing:2px;
+}
+#home:hover{
+	color:gray;
+	
+}
+
+
+
+
+h2{
+	position:absolute;
+	top:10%;
+	color:white;
+	right:65%;
+	font-family:impact;
+	letter-spacing:5px;
+	font-size:50px;
+	text-shadow:1px 1px red;
+}
+#make{
+	position:absolute;
+	top:25%;
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	font-family:helvetica;
+	right:65%;
+}
+#makebox{
+	position:absolute;
+	top:24.9%;
+	
+	font-size:20px;
+	font-weight:bold;
+	font-family:helvetica;
+	right:73%;
+	
+}
+#model{
+	position:absolute;
+	top:29%;
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	font-family:helvetica;
+	right:88.2%;
+	
+}
+#modelbox{
+	
+	position:absolute;
+	top:28.9%;
+	
+	font-size:20px;
+	font-weight:bold;
+	font-family:helvetica;
+	right:73%;
+}
+#year{
+	
+	position:absolute;
+	top:33%;
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	font-family:helvetica;
+	right:89%;
+}
+#yearbox{
+	
+	position:absolute;
+	top:33%;
+	
+	font-size:20px;
+	font-weight:bold;
+	font-family:helvetica;
+	right:73%;
+}
+#plate{
+	
+	position:absolute;
+	top:37%;
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	font-family:helvetica;
+	right:87.9%;
+}
+#platebox{
+	
+	position:absolute;
+	top:37%;
+	
+	font-size:20px;
+	font-weight:bold;
+	font-family:helvetica;
+	right:73%;
+}
+#rate{
+	
+	position:absolute;
+	top:41%;
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	font-family:helvetica;
+	right:87%;
+}
+#ratebox{
+	
+	position:absolute;
+	top:41%;
+	color:black;
+	font-size:20px;
+	font-weight:bold;
+	font-family:helvetica;
+	right:73%;
+	
+}
+#submit{
+	position:absolute;
+	top:47%;
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	font-family:helvetica;
+	right:80.5%;
+	text-shadow:1px 1px black;
+}
+
+
+
+#exit{
+	
+	position:absolute;
+	top:47%;
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	font-family:helvetica;
+	right:73%;
+	text-shadow:1px 1px black;
+}
+
+input:focus{background-color:rgb(225,225,240);}
+input:focus:valid{background-color:rgb(225,240,225); background-image:url("go.png");background-repeat:no-repeat;background-position:right; }
+input:focus:invalid{
+	background-color:rgb(240,225,225); background-image:url("stop.png");background-repeat:no-repeat;background-position:right;

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <title>UPB Car Sharing System</title>
+	<link href="registerstyles.css" rel="stylesheet">
+	<img src="road.png"style="width:1900px; height:1000px;">
+</head>
+<body>
+<div class="boxed">
+        <h2>Sign Up</h2>
+        <p id="fp">New? Fill Out This Form To Create An Account!</p>
+		
+        <form action="" method="post" id="myForm"  onSubmit="alert('Thank You! Your Account has been Created.');">
+            <div>
+                <label id="user">Username....................................................................................................................................</label>
+                <input id="ubox" type="text" name="username" value=""required>
+            </div>    
+            <div>
+                <label id="pw">Password....................................................................................................................................</label>
+                <input id="pass"type="password" name="password"pattern=".{4,}" value=""required>
+            </div>
+            <div>
+                <label id="cpw">Confirm Password..........................................................................................................................</label>
+                <input id="confirm"type="password" name="confirm_password" value=""required>
+                <span><?php echo $confirm_password_err; ?></span>
+            </div>
+            <div>
+                <label id="fn">First Name....................................................................................................................................</label>
+                <input id="first" type="text" name="fName" required>
+            </div>  
+            <div>
+                <label id="ln">Last Name....................................................................................................................................</label>
+                <input id="last"type="text" name="lName"required>
+            </div>  
+            <div>
+                <label id="e">Email....................................................................................................................................</label>
+                <input id="email" type="text" name="email" <input type="text" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Invalid email address"  required>
+            </div>  
+            <div>
+                <label id="p">Phone....................................................................................................................................</label>
+                <input id="phone" type="text" name="phone"pattern=".{10,}" required>
+            </div>  
+            <div>
+                <label id="ad">Address....................................................................................................................................</label>
+                <input pattern=".{18,}" id="addy"type="text" style="width: 500px" name="addr" required>
+            </div>
+		
+            <div>
+                <label id="id">ID Card Type:</label>
+				<div class="buttons">
+  <input id="li" type="radio" name="idCard" value="Driver License" checked><a id="license">Driver License</a>
+  <br><input id="ID" type="radio" name="idCard" value="ID Card"> <a id="cardi">ID Card</a>
+  <br><input id="passport"type="radio" name="idCard" value="Passport"><a id="pport"> Passport</a>
+ <br><input id="UPB" type="radio" name="idCard" value="Student Card"> <a id="UC">UPB Card</a>  
+            </div>  
+            <div>
+                <label id="in">ID Card Number..............................................................................................................................</label>
+                <input pattern=".{5,}"id="IDN"type="text" name="idNum" required>
+            </div>  
+
+            <div>
+                <input id="submit"type="submit"value="Submit">
+                <input id="reset"type="reset" value="Reset">
+            </div>
+            <p id="login">Already have an account? <a href="login.html"style="text-decoration:none;">Login here</a>.</p>
+        
+		<a id="gh"href="welcome.html"style="color:white;text-shadow:.5px .5px silver; text-decoration:none;">Home</a>
+		</form>
+		</div>
+</body>
+</html>

@@ -1,0 +1,185 @@
+
+form{
+	margin-top:50%;
+}
+#head
+	{background-color:black;
+color:white;
+padding:2%;
+margin-top:3px;
+margin-right:90%;
+position:absolute;
+right:10px;
+top:50px;
+left:0;
+width:100%;
+}
+.main {
+	font-size:75px;
+	font-family:Impact;
+	letter-spacing:5px;
+	padding-left:6%;
+	position:relative;
+	right:50px;
+	
+}
+.sub{
+	padding-left:20%;
+	color:rgb(255,204,51);
+	font-family:helvetica;
+position:relative;
+top:20px;
+right:604px;
+}
+#zoom{
+position:relative;
+top:20px;
+right:225px;
+	
+}
+body,html{
+	height:100%;
+	
+}
+#background{
+	height:100%;
+	width:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	
+}
+#needed{
+	position:absolute;
+	top:40%;
+color: white;
+background:black;
+border:none;
+text-align:right;
+letter-spacing:2px;
+}
+#needed:hover{
+	color:black;
+	background:white;
+	
+}
+#provide{
+	position:absolute;
+	top:45%;
+	color:white;
+	background:black;
+	border:none;
+	text-align:right;
+	letter-spacing:2px;
+}
+#provide:hover{
+	color:black;
+	background:white;
+	
+}
+#check{
+	position:absolute;
+	top:65%;
+	color:white;
+	background:black;
+	border:none;
+	text-align:right;
+	letter-spacing:2px;
+}
+#check:hover{
+	color:black;
+	background:white;
+}
+#need{
+	position:absolute;
+	top:70%;
+	color:white;
+	background:black;
+	border:none;
+	text-align:right;
+	letter-spacing:2px;
+}
+#need:hover{
+	
+	color:black;
+	background:white;
+}
+#owner{
+	position:absolute;
+	top:34%;
+	color:white;
+	font-weight:bold;
+	font-size:26px;
+	text-shadow:2px 2px black;
+}
+#rider{
+	position:absolute;
+	top:59%;
+	color:white;
+	font-weight:bold;
+	font-size:26px;
+	text-shadow:2px 2px black;
+}
+#signout{
+	position:absolute;
+	top:21%;
+	right:1%;
+	font-family:helvetica;
+	font-weight:bold;
+	color:white;
+}
+#signout:hover{
+	
+	color:gray;
+}
+body{
+	overflow:hidden;
+}
+#rl{
+	position:absolute;
+	top:15%;
+	right:55%;
+	text-shadow:1px 1px silver;
+font-weight:bold;
+color:white;
+}
+#rl:hover{
+	color:gray;
+}
+#login{
+	position:absolute;
+	top:15%;
+	right:40%;
+	text-shadow:1px 1px silver;
+	font-weight:bold;
+	color:white;
+}
+#login:hover{
+	color:gray;
+	
+}
+#Info{
+	position:absolute;
+	top:15%;
+	right:35%;
+	text-shadow:1px 1px silver;
+	font-weight:bold;
+	color:white;
+}
+#Info:hover{
+	
+	color:gray;
+}
+#home{
+	position:absolute;
+	top:15%;
+	right:67%;
+	text-shadow:1px 1px silver;
+	font-weight:bold;
+	color:white;
+}
+#home:hover{
+	color:gray;
+	
+}
